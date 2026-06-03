@@ -186,6 +186,7 @@
 void GetMemory(char** p, int num)
 {
 	*p = (char*)malloc(num);
+	
 }
 void Test(void)
 {
@@ -194,6 +195,7 @@ void Test(void)
 	strcpy(str, "hello");
 	printf(str);
 }
+
 int main()
 {
 	Test();
